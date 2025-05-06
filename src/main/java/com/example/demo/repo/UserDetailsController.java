@@ -47,4 +47,8 @@ public class UserDetailsController {
     public UserDetails addUser(@RequestBody UserDetails user) {
         return userDetailsRepo.save(user);
     }
+//    @DeleteMapping("/userdetails/{id}")
+//    public void deleteUserById(@PathVariable Long id) {
+//        userDetailsRepo.deleteById(id);
+//        }
 }
